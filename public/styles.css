@@ -1,0 +1,57 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #0d1321;
+}
+
+#header > span {
+	background: #06d6a0;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	/* font-size: 5rem; */
+
+	transition: 500ms cubic-bezier(0.19, 1, 0.22, 1);
+	user-select: none;
+}
+
+#header > span:hover {
+	transition: 500ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+#header > span:last-child {
+	padding-left: 1rem;
+}
+
+@keyframes background-pan {
+	from {
+		background-position: 0% center;
+	}
+	to {
+		background-position: -200% center;
+	}
+}
+
+.sparkle-1 {
+	animation: background-pan 4s linear infinite;
+	background: linear-gradient(to right, #fc466b, #3f5efb, #fc466b);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	background-size: 200%;
+
+	white-space: nowrap;
+}
+
+.sparkle-2 {
+	animation: background-pan 4s linear infinite;
+	background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff, #2980b9);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	background-size: 200%;
+
+	white-space: nowrap;
+}
