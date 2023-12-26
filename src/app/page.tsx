@@ -58,16 +58,25 @@ export default function Home() {
 
 				<div className="pt-8" id="contacts">
 					<div className="flex justify-center text-4xl text-white">
-						<Link href="https://github.com/BasilThaddeus" className="mx-4">
+						<Link
+							href="https://github.com/BasilThaddeus"
+							className="mx-4"
+							target="_blank"
+						>
 							<FaGithub />
 						</Link>
 						<Link
 							href="https://www.linkedin.com/in/basilthaddeus/"
 							className="mx-4"
+							target="_blank"
 						>
 							<FaLinkedin />
 						</Link>
-						<Link href="mailto:basilthad@gmail.com" className="mx-4">
+						<Link
+							href="mailto:basilthad@gmail.com"
+							className="mx-4"
+							target="_blank"
+						>
 							<FaEnvelope />
 						</Link>
 					</div>
