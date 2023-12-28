@@ -5,10 +5,12 @@ import Projects from "@/components/projects";
 import Section from "@/components/section";
 import Link from "next/link";
 import { FaLeaf, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Home() {
 	return (
 		<div className="md:m-4">
+			<Analytics />
 			<link rel="stylesheet" href="styles.css" />
 			<>
 				<Navbar pageLocation="Home" />
@@ -17,13 +19,12 @@ export default function Home() {
 					<div className="flex">
 						<div className="text-2xl text-gray-300 flex flex-col">
 							<span className="text-xl mb-2 md:m-2">Hi! My name is</span>
-
-							<div id="header" className="text-4xl md:mt-8 md:text-[5rem] h-16">
+							<div id="header" className="text-4xl md:mt-8 md:text-[5rem] h-12">
 								<span className="md:hover:text-[6rem]">Basil</span>
 								<span className="md:hover:text-[6rem]">Thaddeus.</span>
 							</div>
 
-							<div className="inline-block text-xl mt-2 xl:w-3/4 md:m-2 md:mt-8">
+							<div className="inline-block text-xl xl:w-3/4 md:mt-8">
 								<span>I am a Web Developer from </span>
 								<span className="sparkle-1">Yerevan, Armenia </span>
 								<span>and I am based in </span>
