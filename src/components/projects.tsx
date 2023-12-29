@@ -17,7 +17,7 @@ export default function Projects() {
 function ProjectItem([projectName, desc, link]: string[]) {
 	return (
 		<>
-			<div className="lg:flex border border-teal-600 p-6">
+			<div className="lg:flex border border-teal-600 p-2 lg:p-6">
 				<div className="m-auto mx-6 my-4">
 					<span className="text-2xl">{projectName}</span>
 				</div>

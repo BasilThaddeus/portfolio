@@ -6,6 +6,7 @@ import Section from "@/components/section";
 import Link from "next/link";
 import { FaLeaf, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { Analytics } from "@vercel/analytics/react";
+import LogoCloud from "@/components/logocloud";
 
 export default function Home() {
 	return (
@@ -57,8 +58,15 @@ export default function Home() {
 					<Projects />
 				</Section>
 
-				<div className="pt-8" id="contacts">
-					<div className="flex justify-center text-4xl text-white">
+				<Section id="experience" color={1}>
+					<LogoCloud />
+				</Section>
+
+				<div className="pt-8 mt-10" id="contacts">
+					<div className="flex justify-center mb-10">
+						<span className="text-2xl text-white">Contact Me</span>
+					</div>
+					<div className="flex justify-center text-5xl text-white">
 						<Link
 							href="https://github.com/BasilThaddeus"
 							className="mx-4"
