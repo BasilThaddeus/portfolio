@@ -16,7 +16,7 @@ export default function Projects() {
 
 function ProjectItem([projectName, desc, link]: string[]) {
 	return (
-		<>
+		<div key={projectName}>
 			<div className="lg:flex border border-teal-600 p-2 lg:p-6">
 				<div className="m-auto mx-6 my-4">
 					<span className="text-2xl">{projectName}</span>
@@ -30,6 +30,6 @@ function ProjectItem([projectName, desc, link]: string[]) {
 					</Button>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }

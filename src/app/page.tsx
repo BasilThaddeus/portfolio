@@ -66,24 +66,24 @@ export default function Home() {
 					<div className="flex justify-center mb-10">
 						<span className="text-2xl text-white">Contact Me</span>
 					</div>
-					<div className="flex justify-center text-5xl text-white">
+					<div className="flex justify-center text-5xl text-slate-300">
 						<Link
 							href="https://github.com/BasilThaddeus"
-							className="mx-4"
+							className="mx-4 hover:text-white transition-all"
 							target="_blank"
 						>
 							<FaGithub />
 						</Link>
 						<Link
 							href="https://www.linkedin.com/in/basilthaddeus/"
-							className="mx-4"
+							className="mx-4 hover:text-white transition-all"
 							target="_blank"
 						>
 							<FaLinkedin />
 						</Link>
 						<Link
 							href="mailto:basilthad@gmail.com"
-							className="mx-4"
+							className="mx-4 hover:text-white transition-all"
 							target="_blank"
 						>
 							<FaEnvelope />
