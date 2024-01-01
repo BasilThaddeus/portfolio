@@ -19,13 +19,20 @@ export default function Home() {
 				<Section>
 					<div className="flex">
 						<div className="text-2xl text-gray-300 flex flex-col">
-							<span className="text-xl mb-2 md:m-2">Hi! My name is</span>
-							<div id="header" className="text-4xl md:mt-8 md:text-[5rem] h-12">
-								<span className="md:hover:text-[6rem]">Basil</span>
-								<span className="md:hover:text-[6rem]">Thaddeus.</span>
+							<span className="text-xl mb-2 lg:m-2">Hi! My name is</span>
+							<div
+								id="header"
+								className="text-4xl md:mt-4 lg:mt-8 md:text-[3rem] lg:text-[5rem] h-12"
+							>
+								<span className="md:hover:text-[4rem] lg:hover:text-[6rem]">
+									Basil
+								</span>
+								<span className="md:hover:text-[4rem] lg:hover:text-[6rem]">
+									Thaddeus.
+								</span>
 							</div>
 
-							<div className="inline-block text-xl xl:w-3/4 md:mt-8">
+							<div className="inline-block text-xl xl:w-3/4 md:mt-4 lg:mt-8">
 								<span>I am a Web Developer from </span>
 								<span className="sparkle-1">Yerevan, Armenia </span>
 								<span>and I am based in </span>
